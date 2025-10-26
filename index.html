@@ -167,6 +167,89 @@
   <button onclick="fecharNotificacao()">RESGATAR PRÊMIOS</button>
 </div>
 
+<style>
+.notificacao-premio {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 350px;
+  z-index: 9999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.notificacao-premio .titulo {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.notificacao-premio .imagem-premio {
+  width: 80%;
+  max-width: 200px;
+  margin: 10px auto;
+  display: block;
+}
+
+.notificacao-premio p {
+  font-size: 0.95rem;
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.notificacao-premio .premio {
+  background: #ffd700;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 6px auto;
+  width: 80%;
+}
+
+.notificacao-premio button {
+  background: #00c853;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.notificacao-premio button:hover {
+  background: #00b248;
+}
+
+@media (max-width: 400px) {
+  .notificacao-premio {
+    padding: 15px;
+    max-width: 300px;
+  }
+
+  .notificacao-premio .titulo {
+    font-size: 1.1rem;
+  }
+
+  .notificacao-premio p {
+    font-size: 0.9rem;
+  }
+
+  .notificacao-premio .imagem-premio {
+    width: 70%;
+  }
+}
+</style>
+
+
 
 
 
